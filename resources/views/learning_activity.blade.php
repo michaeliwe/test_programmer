@@ -170,7 +170,7 @@ Learning Activity
                 <a href="#" data-toggle="modal" data-target="#edit_method_{{ $item->id }}"><i class="fa fa-edit"></i></a>
             </td>
             @foreach ($months as $month)
-            <td>
+            <td valign='top'>
                 <ul>
                     @foreach ($data as $month_key => $permethod)
                         @foreach ($permethod as $method_key => $activities)
